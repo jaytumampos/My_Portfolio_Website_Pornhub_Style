@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js"></script>
+    <script src="https://kit.fontawesome.com/174b725d3b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" class="logo">
+                    <ul>
+                        <li> <a href="#">Home</a> </li>
+                        <li> <a href="#">About</a> </li>
+                        <li> <a href="#">Services</a> </li>
+                        <li> <a href="#">Portfolio</a> </li>
+                        <li> <a href="#">Contact</a> </li>
+                    </ul>
+            </nav>
+                <div class="header-text">
+                    <p><span>Hey There!</span></p>
+                    <h1>I'm B<span>J</span><br>Aspiring <br><span>Front-end Developer</span></h1>
+                </div>
+            <div class="button-container">
+                    <p>Would you like to:</p>
+                <button class="button">Hire Me</button>
+                <span>Or</span>
+                <button class="button">Talk Me</button>
+            </div>
+        </div>
+    </div>
+
+    <hr class="horizontal-line">
+
+
+                    <!--About--me--Page-->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/about_bj.jpg" alt="about bj">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm 19 year old, 2nd Year College student<span> aspiring front-end developer</span> with a focus on <span>HTML, CSS, JavaScript, PHP and SQL databases</span>. I love creating a <span>beautiful websites and continuously learn a new language to improve my skills and to expand my knowledge.</span> I've been completed several projects on my own. I'm excited to collaborate with you and bring my ideas on your company! Let's work together and <span>create amazing digital experiences!</span>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML & CSS</li>
+                            <li>JavaScript & TypeScript</li>
+                            <li>CSS Preprocessor & Hypertext Preprocessor</li>
+                            <li>Frameworks and Libraries</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>I don't have any experiences, but I'm still seeking a client as a freelancer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Elementary (2010-2016)</span><br>San Bartolome Elementary School</li>
+                            <li><span>Junior Highschool (2016-2020)</span><br>Colegio de San Bartolome de Novaliches</li>
+                            <li><span>Senior Highschool (2020-2022)</span><br>STI College Novaliches</li>
+                            <li><span>College (2022 - current)</span><br>Bestlink College of Novaliches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="horizontal-line">
+
+                    <!--Services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list"> 
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Customized Web/App Application</p>
+                    <a href="#" title="learn more In Web Development">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Customized Web/App Design</p>
+                    <a href="#" title="learn more In Web Design">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Website Maintenance</h2>
+                    <p>keeping a website up-to-date and running smoothly</p>
+                    <a href="#" title="learn more In Website Maintenance">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="horizontal-line">
+
+                        <!-------------My-Portfolio---------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work-item">
+                        <img src="/images/corporate_website.jpg">
+                        <div class="layer">
+                            <h3>Corporate Website</h3>
+                            <p>I can make a fully responsive Corporate Website</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work-item">
+                        <img src="/images/food_resto.jpg">
+                        <div class="layer">
+                            <h3>Restaurant Menu Website</h3>
+                            <p>I can make a fully responsive Restaurant Menu Website</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work-item">
+                        <img src="/images/ecommerce.jpg">
+                        <div class="layer">
+                            <h3>Ecommerce Website</h3>
+                            <p>I can make a fully responsive Ecommerce Website</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="horizontal-line">
+
+                     <!--Contact--------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                            <div class="contact-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-phone-volume"></i>09272648100</li>
+                                    <li><i class="fa-solid fa-phone-volume"></i>09949500261</li>
+                                    <li><i class="fa-brands fa-telegram"></i><a href="mailto:devcodebyjay@gmail.com">devcodebyjay@gmail.com</a></li>
+                                </ul>
+                            </div>
+
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ltsklgehtalon" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/ltsklgehtalon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Enter your message" ></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
